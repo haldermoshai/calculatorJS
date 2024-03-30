@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh; width: 100vw;
+    background-image: 
+    url(https://media.licdn.com/dms/image/C4E12AQEGQgGRIQGj9w/article-cover_image-shrink_600_2000/0/1634794010115?e=2147483647&v=beta&t=cmN1tgsGyvcDTILjiMSatu3ID7tK4Wo161UZK6zuEx8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.container {
+    background: linear-gradient(to right bottom, rgb(63, 73, 85), rgb(37, 45, 51));
+    border: 2px solid rgb(172, 207, 238);
+    box-shadow: 15px 15px 15px rgb(83, 88, 92);
+    border-radius: 20px;
+    padding: 18px 20px;
+}
+.container h1 {
+    margin-block: 8px;
+    padding-bottom: 5px;
+    color: rgb(133, 147, 156);
+    font-size: 35px;
+    font-style: italic;
+    border-bottom: 3px solid rgb(116, 56, 56);
+}
+.result {
+    border: 2px solid rgb(112, 133, 86);
+    outline: none;
+    background-color: rgb(206, 233, 176);
+    margin-block: 35px;
+    width: 350px; height: 85px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 32px;
+    color: rgb(13, 53, 21);
+    font-weight: bolder;
+    cursor: none;
+}
+.btn {
+    margin-block: 12PX;
+    margin-inline: 5px;
+    width: 74px;
+    background-color: rgb(94, 103, 110);
+    box-shadow: 0.5px 0.5px 6px rgb(196, 191, 191);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.sqr {
+    font-size: 20.5px;
+    background-color: rgb(98, 136, 49);
+    color: rgb(255, 255, 0);
+}
+.eval {
+    background-color: rgb(165, 86, 21);
+}
+.operation {
+    background-color: rgb(226, 172, 90);
+    color: rgb(31, 66, 31);
+}
+.clear {
+    background-color: rgb(69, 134, 187);
+    color: rgb(255, 255, 0);
+}
